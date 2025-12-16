@@ -1,8 +1,6 @@
 import nextra from 'nextra'
 
-const withNextra = nextra({
-  theme: 'nextra-theme-docs',
-})
+const withNextra = nextra({})
 
 /** @type {import('next').NextConfig} */
 const config = {
