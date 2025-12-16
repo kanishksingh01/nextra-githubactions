@@ -37,5 +37,4 @@ jobs:
     steps:
       - uses: actions/configure-pages@v5
       - id: deployment
-        uses: actions/deploy-pages@v4https://github.com/kanishksingh01/nextra-githubactions
-        
+        uses: actions/deploy-pages@v4
