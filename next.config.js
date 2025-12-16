@@ -1,4 +1,5 @@
-const withNextra = require('nextra')({
+const nextra = require('nextra')
+const withNextra = (nextra.default || nextra)({
   // Use the built-in docs theme. See https://nextra.site/docs/docs-theme for details.
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.jsx'
