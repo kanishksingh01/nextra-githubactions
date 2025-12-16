@@ -1,9 +1,8 @@
-import nextra from 'nextra';
+import nextra from 'nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.js',
-});
+})
 
 /** @type {import('next').NextConfig} */
 const config = {
@@ -11,6 +10,6 @@ const config = {
   images: {
     unoptimized: true,
   },
-};
+}
 
-export default withNextra(config);
+export default withNextra(config)
