@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npm run export
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:
           path: out
@@ -37,4 +37,5 @@ jobs:
     steps:
       - uses: actions/configure-pages@v5
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4https://github.com/kanishksingh01/nextra-githubactions
+        
