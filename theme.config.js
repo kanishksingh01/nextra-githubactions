@@ -8,9 +8,16 @@ const currentYear = new Date().getFullYear()
  */
 export default {
   logo: 'My Portfolio',
+    darkMode: true,
+  nextThemes: {
+    defaultTheme: 'dark'
+  },
+
   project: {
     // Link in the navbar pointing back to the GitHub repository.
     link: 'https://github.com/kanishksingh01/nextra-githubactions'
+   
+
   },
   docsRepositoryBase: 'https://github.com/kanishksingh01/nextra-githubactions',
   footer: {
