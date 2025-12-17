@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <Layout
           logo={<span>My Portfolio</span>}
           project={{ link: 'https://kanishksingh01.github.io/nextra-githubactions' }}
-          docsRepositoryBase="https://github.com/kanishksingh01/nextra-githubactions/blob/main/pages"
+          docsRepositoryBase="https://github.com/kanishksingh01/nextra-githubactions/blob/main/content"
           nextThemes={{ defaultTheme: 'dark' }}
           sidebar={{ defaultMenuCollapseLevel: 1 }}
         >
