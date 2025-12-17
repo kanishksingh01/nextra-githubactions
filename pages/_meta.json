@@ -1,46 +1,26 @@
 {
   "index": {
-    "title": "Introduction",
+    "title": "Home",
     "type": "page"
   },
-  "getting-started": {
-    "title": "Getting Started",
+  "about": {
+    "title": "About",
     "type": "page"
   },
-  "helix": {
-    "title": "Helix",
+  "skills": {
+    "title": "Skills",
     "type": "page"
   },
-  "acryl": {
-    "title": "Acryl",
+  "projects": {
+    "title": "Projects",
     "type": "page"
   },
-  "dremio": {
-    "title": "Dremio",
+  "experience": {
+    "title": "Experience",
     "type": "page"
   },
-  "infrastructure": {
-    "title": "Infrastructure",
-    "type": "page"
-  },
-  "monitoring-dashboards": {
-    "title": "Monitoring-Dashboards",
-    "type": "page"
-  },
-  "responsibilities": {
-    "title": "Responsibilities",
-    "type": "page"
-  },
-  "triage": {
-    "title": "Triage",
-    "type": "page"
-  },
-  "snowflake": {
-    "title": "Snowflake",
-    "type": "page"
-  },
-  "dagster": {
-    "title": "Dagster",
+  "contact": {
+    "title": "Contact",
     "type": "page"
   }
 }
