@@ -1,5 +1,3 @@
-import React from 'react'
-
 const currentYear = new Date().getFullYear()
 
 /**
@@ -9,7 +7,7 @@ const currentYear = new Date().getFullYear()
  * customizing your portfolio further.
  */
 export default {
-  logo: <span style={{ fontWeight: 700 }}>My Portfolio</span>,
+  logo: 'My Portfolio',
   project: {
     // Link in the navbar pointing back to the GitHub repository.
     link: 'https://github.com/kanishksingh01/nextra-githubactions'
@@ -17,6 +15,6 @@ export default {
   docsRepositoryBase: 'https://github.com/kanishksingh01/nextra-githubactions',
   footer: {
     // Replace "Your Name" with your actual name or brand.
-    text: `© ${currentYear} Your Name. All rights reserved.`
+    text: `© ${currentYear} Your Name. All rights reserved.`
   }
 }
