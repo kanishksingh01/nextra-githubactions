@@ -1,0 +1,26 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "skills": {
+    "title": l"Skills",
+    "type": "page"
+  },
+  "projects": {
+    "title": "Projects",
+    "type": "page"
+  },
+  "experience": {
+    "title": "Experience",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact",
+    "type": "page"
+  }
+}
