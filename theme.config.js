@@ -1,16 +1,21 @@
 /**
  * Theme configuration for the Nextra Docs theme.
- * See https://nextra.site/docs/docs-theme/theme-configuration for the available
- * options. Most fields are optional; feel free to extend this file when
- * customizing your portfolio further.
+ * All fields are optional; customize as needed.
  */
 export default {
-  logo: () => <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>My Portfolio</span>,
+  logo: () => <span>SRE InfoHub</span>,
   project: {
-    link: 'https://github.com/kanishksingh01/nextra-githubactions'
+    link: 'https://kanishksingh01.github.io/nextra-githubactions'
   },
   docsRepositoryBase: 'https://github.com/kanishksingh01/nextra-githubactions',
+  nextThemes: {
+    defaultTheme: 'dark'
+  },
+  darkMode: true,
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+  },
   footer: {
-    text: () => <span>© {new Date().getFullYear()} Your Name. All rights reserved.</span>
-  }
+    text: () => <span>© {new Date().getFullYear()} SRE InfoHub. All rights reserved.</span>
+  },
 }
