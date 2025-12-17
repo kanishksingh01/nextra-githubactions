@@ -1,7 +1,7 @@
 import nextra from 'nextra'
 
 const withNextra = nextra({
-  contentDirBasePath: './con,tent'
+  contentDirBasePath: './content'
 })
 
 /** @type {import('next').NextConfig} */
