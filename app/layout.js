@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
             <main>
               {children}
             </main>
-            <footer style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '1px solid #eaeaea' }}>
+            <footer style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '1px solid var(--nextra-border-color, rgba(229, 231, 235, 0.2))' }}>
               <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
             </footer>
           </div>
