@@ -1,10 +1,46 @@
 {
   "index": {
-    "title": "Home",
+    "title": "Introduction",
     "type": "page"
   },
-  "projects": {
-    "title": "Projects",
+  "getting-started": {
+    "title": "Getting Started",
+    "type": "page"
+  },
+  "helix": {
+    "title": "Helix",
+    "type": "page"
+  },
+  "acryl": {
+    "title": "Acryl",
+    "type": "page"
+  },
+  "dremio": {
+    "title": "Dremio",
+    "type": "page"
+  },
+  "infrastructure": {
+    "title": "Infrastructure",
+    "type": "page"
+  },
+  "monitoring-dashboards": {
+    "title": "Monitoring-Dashboards",
+    "type": "page"
+  },
+  "responsibilities": {
+    "title": "Responsibilities",
+    "type": "page"
+  },
+  "triage": {
+    "title": "Triage",
+    "type": "page"
+  },
+  "snowflake": {
+    "title": "Snowflake",
+    "type": "page"
+  },
+  "dagster": {
+    "title": "Dagster",
     "type": "page"
   }
 }
