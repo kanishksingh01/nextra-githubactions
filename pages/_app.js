@@ -1,10 +1,11 @@
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider, useTheme } from 'next-themes'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white transition-colors">
+      <div style={{ minHeight: '100vh', transition: 'background-color 0.3s, color 0.3s' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto', padding: '20px' }}>
           <header style={{ marginBottom: '2rem', padding: '1rem 0', borderBottom: '1px solid var(--border-color, #eaeaea)' }}>
             <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
@@ -38,10 +39,10 @@ export default function App({ Component, pageProps }) {
 }
 
 function ThemeToggle() {
-  const { theme, setTheme, resolvedTheme } = require('next-themes').useTheme()
-  const [mounted, setMounted] = require('react').useState(false)
+  const { theme, setTheme, resolvedTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
   
-  require('react').useEffect(() => setMounted(true), [])
+  useEffect(() => setMounted(true), [])
   
   if (!mounted) return null
   
