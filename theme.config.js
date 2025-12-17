@@ -5,5 +5,12 @@
  * customizing your portfolio further.
  */
 export default {
-  docsRepositoryBase: 'https://github.com/kanishksingh01/nextra-githubactions'
+  logo: () => <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>My Portfolio</span>,
+  project: {
+    link: 'https://github.com/kanishksingh01/nextra-githubactions'
+  },
+  docsRepositoryBase: 'https://github.com/kanishksingh01/nextra-githubactions',
+  footer: {
+    text: () => <span>© {new Date().getFullYear()} Your Name. All rights reserved.</span>
+  }
 }
